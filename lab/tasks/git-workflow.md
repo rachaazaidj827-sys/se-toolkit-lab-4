@@ -20,7 +20,7 @@ Outline:
   - [Create a branch using `GitHub`](#create-a-branch-using-github)
   - [Create a branch using the `Terminal`](#create-a-branch-using-the-terminal)
   - [Create a branch using `GitLens`](#create-a-branch-using-gitlens)
-- [Make commits](#make-commits)
+- [Commit](#commit)
   - [Commit using the `Terminal`](#commit-using-the-terminal)
   - [Commit using `Source Control`](#commit-using-source-control)
   - [Commit using `Source Control` (specific changes)](#commit-using-source-control-specific-changes)
@@ -105,7 +105,7 @@ Create a new branch using any of these approaches:
 6. `Select Create & Switch to Branch` (e.g., using `UpArrow` and `DownArrow` on your keyboard).
 7. Press `Enter` to confirm.
 
-## Make commits
+## Commit
 
 Make commits to the `<branch-name>` to complete the task.
 
