@@ -8,6 +8,12 @@
 
 ### Docstring
 
+## Package managers
+
+### `uv`
+
+`uv` is a modern package manager for `Python`.
+
 ## Testing
 
 ### `pytest`
