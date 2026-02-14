@@ -324,9 +324,9 @@ Method 2:
 
      **Note:** [`Ubuntu`](./linux.md#ubuntu) is a [`Linux` distro](./linux.md#ubuntu).
 
-   - Case 3 (the best): You're running `VS Code` inside `WSL`. You've probably [opened the directory inside `WSL`](#open-the-directory-in-wsl). This is the best case.
+   - Case 3 (the best): You're running `VS Code` inside `WSL`. You've probably [opened the directory inside `WSL`](#windows-only-open-the-directory-in-wsl). This is the best case.
 
-     <img alt="Terminal Default Profile Outside WSL" src="../images/appendix/vs-code/command-palette-default-terminal-profile-inside-wsl-bash.png" style="width:400px"></img>
+     <img alt="Terminal Default Profile Outside WSL" src="../images/appendix/vs-code/command-palette-default-terminal-profile-bash.png" style="width:400px"></img>
 
      [Select](#select-an-option-from-a-list) `bash`.
 4. [Open the `VS Code Terminal`](#open-the-vs-code-terminal).
@@ -537,7 +537,7 @@ Here are some [workspace settings](#workspace-settings) that you can change:
 
 ### (`Windows` only) Open the directory in `WSL`
 
-1. [Run using the `Command Palette`](./appendix/vs-code.md#command-palette):
+1. [Run using the `Command Palette`](#command-palette):
    `WSL: Open Folder in WSL...`
 2. Click `Show Local`.
 3. Select the directory.

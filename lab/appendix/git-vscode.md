@@ -95,7 +95,7 @@
 
 ### Clone the repo using the `Command Palette`
 
-1. [Run using the `Command Palette`](../lab/appendix/vs-code.md#run-a-command-using-the-command-palette):
+1. [Run using the `Command Palette`](./vs-code.md#run-a-command-using-the-command-palette):
    `Git: Clone`.
 2. Click `Clone from GitHub`.
 3. Allow the extension to sign in.
@@ -138,7 +138,7 @@ on the `<branch-name>` branch in your cloned repo on your computer.
 
 Check whether you have such conflicts:
 
-1. Look at the [`Status Bar`](../vs-code.md#status-bar).
+1. Look at the [`Status Bar`](./vs-code.md#status-bar).
 
    <img alt="Commit Conflict" src="../images/appendix/vs-code/status-bar-commit-conflict.png" style="width:400px"></img>
 
@@ -158,7 +158,7 @@ We call that branch `origin/<branch-name>`.
 
 ### Pull changes from `origin/<branch-name>` using the `VS Code Terminal`
 
-1. [Run using the `VS Code Terminal`](../vs-code.md#run-a-command-using-the-vs-code-terminal):
+1. [Run using the `VS Code Terminal`](./vs-code.md#run-a-command-using-the-vs-code-terminal):
 
    ```terminal
    git pull origin <branch-name>
@@ -172,7 +172,7 @@ We call that branch `origin/<branch-name>`.
 
 ### Pull changes from `origin/<branch-name>` using `GitLens`
 
-1. [Run using the `Command Palette`](../vs-code.md#run-a-command-using-the-command-palette):
+1. [Run using the `Command Palette`](./vs-code.md#run-a-command-using-the-command-palette):
    `GitLens: Pull`
 
 ## Stage using the `Source Control`

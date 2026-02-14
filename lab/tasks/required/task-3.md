@@ -133,7 +133,7 @@ Method 2:
 
 #### Check `/status` using another address
 
-1. Go to [`docker-compose.yml`](../../docker-compose.yml).
+1. Go to [`docker-compose.yml`](../../../docker-compose.yml).
 2. Find the service `caddy`.
 
    **Note:** this service is running `Caddy` in a container at the port `CADDY_HOST_PORT` specified in the file `.env.docker.secret`.

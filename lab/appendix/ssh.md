@@ -161,7 +161,7 @@ Because you used a custom name, your keys are named `se_toolkit_key` (private) a
 
 ## Connect to the VM
 
-You can connect using the alias that you [added to your `SSH` config](#add-the-host-to-the-ssh-config).
+You can connect using the alias that you [added to your `SSH` config](#add-the-host-to-ssh).
 
 1. [Run using the `VS Code Terminal`](./vs-code.md#run-a-command-using-the-vs-code-terminal):
 

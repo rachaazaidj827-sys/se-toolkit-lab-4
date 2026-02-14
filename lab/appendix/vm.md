@@ -108,7 +108,7 @@ Complete these steps to create a VM:
 
 ## Ping the VM
 
-1. [Run using the `VS Code Terminal`](../../appendix/vs-code.md#run-a-command-using-the-vs-code-terminal):
+1. [Run using the `VS Code Terminal`](./vs-code.md#run-a-command-using-the-vs-code-terminal):
 
    ```terminal
    ping <your-vm-ip-address>
