@@ -293,7 +293,8 @@ Method 2:
 
 1. [Enable `WSL`](https://code.visualstudio.com/docs/remote/wsl-tutorial#_enable-wsl).
 2. Open `VS Code`.
-3. [Install the extension](./vs-code.md#extensions) [`ms-vscode-remote.remote-wsl`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
+3. [Install the extension](./vs-code.md#extensions):
+   [`ms-vscode-remote.remote-wsl`](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
    It lets you use `WSL` in `VS Code`.
 4. [Run using the `VS Code Terminal`](./vs-code.md#run-a-command-using-the-vs-code-terminal):
