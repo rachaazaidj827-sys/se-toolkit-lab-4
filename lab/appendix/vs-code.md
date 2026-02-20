@@ -42,7 +42,8 @@
   - [Install recommended `Extensions`](#install-recommended-extensions)
 - [Keyboard shortcuts](#keyboard-shortcuts)
   - [Frequently used shortcuts](#frequently-used-shortcuts)
-    - [Shortcut: Go back](#shortcut-go-back)
+    - [Shortcut: `Go back`](#shortcut-go-back)
+      - [Set shortcut for Go back](#set-shortcut-for-go-back)
     - [Shortcut: Switch to the previous editor](#shortcut-switch-to-the-previous-editor)
     - [Shortcut: Search in the current editor](#shortcut-search-in-the-current-editor)
     - [Shortcut: Search in all files](#shortcut-search-in-all-files)
@@ -489,9 +490,16 @@ Docs:
 - [Search in all files](#shortcut-search-in-all-files)
 - [Toggle line comment](#shortcut-toggle-line-comment)
 
-#### Shortcut: Go back
+#### Shortcut: `Go back`
 
-`Alt+-` (`Ctrl+-` on `macOS`)
+`Ctrl+Alt+-` (`Ctrl+-` on `macOS`)
+
+##### Set shortcut for Go back
+
+1. [Set a shortcut](#set-a-shortcut)
+    - `<command-name>` is `Go Back`
+
+    <img alt="Status Bar (left)" src="../images/appendix/vs-code/command-palette-go-back.png" style="width:400px"></img>
 
 #### Shortcut: Switch to the previous editor
 
@@ -521,7 +529,7 @@ Docs:
 1. [Run using the `Command Palette`](#run-a-command-using-the-command-palette):
    `Preferences: Open Keyboard Shortcuts`.
 2. Write the keybinding name.
-3. In the `Command column`, find the necessary command.
+3. In the `Command column`, find the `<command-name>`.
 4. Double-click the row with that command.
 5. Type the shortcut.
 6. (Optional) Press `Esc` to reset the input.
