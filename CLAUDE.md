@@ -26,6 +26,7 @@ Read before making changes:
 
 Read and follow:
 
+- [`docs/design/architecture.md`](docs/design/architecture.md) — C4 architecture, domain model, container layout, component structure, and design decisions
 - [`docs/contributing/conventions/code.md`](docs/contributing/conventions/code.md) — naming, comments, type safety, linting, shift-left testing, security
 
 ## Other files
