@@ -118,7 +118,7 @@ This provides: what it is, where to find it, official docs, and how to use it.
 
 - [ ] `README.md` has: story, learning advice, learning outcomes, task list.
 - [ ] Every task file has: Time, Purpose, Context, ToC, Steps, Acceptance criteria.
-- [ ] Every terminal command has a `` [Run using the `VS Code Terminal`] `` link prefix.
+- [ ] Every terminal command uses the "To…" intention pattern with a `` [run in the `VS Code Terminal`] `` link.
 - [ ] Every Command Palette command has a `` [Run using the `Command Palette`] `` link prefix.
 - [ ] All cross-references use relative paths and are valid.
 - [ ] Wiki docs exist for every tool/concept linked from tasks.
