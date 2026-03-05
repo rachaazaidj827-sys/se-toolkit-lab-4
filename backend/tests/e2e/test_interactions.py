@@ -72,3 +72,24 @@ def test_post_interaction_with_unknown_item_returns_422(
     assert payload["detail"] == (
         "learner_id or item_id does not reference an existing record"
     )
+def test_get_interactions_response_structure(client: httpx.Client) -> None:
+    """Test GET /interactions response has correct fields in each item."""
+    response = client.get("/interactions/")
+    assert response.status_code == 200
+    data = response.json()
+    assert isinstance(data, list)
+    if data:  # if there are items
+        for item in data:
+            # Check required fields exist
+            assert "id" in item
+            assert "learner_id" in item
+            assert "item_id" in item
+            assert "kind" in item
+            assert "created_at" in item
+            # Check field types
+            assert isinstance(item["id"], int)
+            assert isinstance(item["learner_id"], int)
+            assert isinstance(item["item_id"], int)
+            assert isinstance(item["kind"], str)
+            assert isinstance(item["created_at"], str)
+            
